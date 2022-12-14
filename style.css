@@ -65,3 +65,13 @@
   width: 90px;
   object-fit: cover;
 }
+#nav-item{
+  transition: all 0.5s ease;
+}
+#nav-item:hover{
+  background: none;
+  color:rgb(245, 109, 60)
+}
+.fas{
+  font-size: 20px;
+}

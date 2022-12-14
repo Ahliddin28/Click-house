@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   // spaceBetween: 30,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     400: {
       slidesPerView: 2,
@@ -46,3 +50,4 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+AOS.init();

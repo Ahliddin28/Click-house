@@ -23,10 +23,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav
+    data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom"
       class="navbar container"
       role="navigation"
       aria-label="main navigation"
@@ -51,14 +54,14 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item"> Каталог</a>
-          <a class="navbar-item">Доставка </a>
-          <a class="navbar-item">Условия</a>
+          <a class="navbar-item" id="nav-item"> Каталог</a>
+          <a class="navbar-item" id="nav-item">Доставка </a>
+          <a class="navbar-item" id="nav-item">Условия</a>
         </div>
         <div class="navbar-end">
           <div class="navbar-item p-3">
-            <p class="">
-              <a href="#" class="has-text-dark"
+            <p id="nav-item">
+              <a href="#" class="has-text-dark" id="nav-item"
                 >+ 375 736 463 64 72 / +375 736 463 64 72</a
               ><br />
               <span class="ml-6 pl-6">Заказать звонок</span> 
@@ -67,7 +70,8 @@
         </div>
       </div>
     </nav>
-    <div class="second-navbar flex container">
+    <div class="second-navbar flex container"data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
       <div class="search m-2">
         <input type="text" placeholder="Что желаете найти?" /><i
           class="fas fa-search"
@@ -77,15 +81,15 @@
         <a style="color: #ff9900" class="m-2">Вставить список покупок</a>
       </div>
       <div>
-        <i class="far fa-star mr-2"></i>
-        <i class="fa-regular fa-cart-shopping"></i>
-        <i class="fas fa-user"></i>
+        <i class="fas fa-star mr-2"></i>
+        <i class="fas fa-cart-shopping"></i>
+        <i class="fas fa-user ml-2"></i>
       </div>
     </div>
 
     <div class="first container section">
       <div class="columns">
-        <div class="column is-5">
+        <div class="column is-5 "data-aos="fade-right" id="to top">
           <div class="" style="border-radius: 50px">
             <b class="title is-1">Мебель на <br />любой вкус!</b><br />
             <br />
@@ -107,18 +111,18 @@
             </center>
           </div>
         </div>
-        <div class="column">
+        <div class="column "data-aos="fade-left">
           <div class="" style="border-radius: 50px">
-            <img src="image 34.png" alt=""">
+            <img src="image 34.png">
           </div>
         </div>
       </div>
     </div>
 
-    <div class="second section container">
+    <div class="second section container"  data-aos="flip-up">
       <b class="title is-4 m-4">Популярные категории</b>
       <a class="">Все категории <i class="fas fa-arrow-right"></i></a>
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper" >
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="box">
@@ -170,7 +174,7 @@
       </div>
     </div>
 
-    <div class="third container section">
+    <div class="third container section" data-aos="zoom-in-up">
       <b class="title is-3 mr-5"
         >Скидки <i class="fal fa-percent has-text-danger mr-5"></i></b
       ><br />
@@ -232,7 +236,7 @@
       </div>
     </div>
 
-    <div class="fourth section container">
+    <div class="fourth section container" data-aos="zoom-in-up">
       <b class="title is-3 mr-6">Товары в наличии</b>
       <a class="">Все товары в категории <i class="fas fa-arrow-right"></i></a
       ><br /><br />
@@ -346,7 +350,8 @@
       </div>
     </div>
 
-    <footer class="footer1">
+    <footer class="footer1"data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
       <center>
         <div class="columns section">
           <div class="column">
@@ -376,6 +381,7 @@
       </center>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
