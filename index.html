@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click house</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+      integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar container"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="Capa 1.png" width="112" height="28" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item"> Каталог</a>
+          <a class="navbar-item">Доставка </a>
+          <a class="navbar-item">Условия</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item p-3">
+            <p class="">
+              <a href="#" class="has-text-dark"
+                >+ 375 736 463 64 72 / +375 736 463 64 72</a
+              ><br />
+              <span class="ml-6 pl-6">Заказать звонок</span> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="second-navbar flex container">
+      <div class="search m-2">
+        <input type="text" placeholder="Что желаете найти?" /><i
+          class="fas fa-search"
+        ></i>
+      </div>
+      <div>
+        <a style="color: #ff9900" class="m-2">Вставить список покупок</a>
+      </div>
+      <div>
+        <i class="far fa-star mr-2"></i>
+        <i class="fa-regular fa-cart-shopping"></i>
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+
+    <div class="first container section">
+      <div class="columns">
+        <div class="column is-5">
+          <div class="" style="border-radius: 50px">
+            <b class="title is-1">Мебель на <br />любой вкус!</b><br />
+            <br />
+            <li><a href="#">Худи, чашки для горячего чая и термосы</a></li>
+            <br />
+            <li><a href="#">Eлочные игрушки, брелочки</a></li>
+            <br />
+            <li><a href="#">Начало списка вещей, которые можно</a></li>
+            <center>
+              <br />
+              <button
+                class="button is-rounded has-text-white"
+                style="background-color: #ff9900; width: 100%"
+              >
+                Перейти в каталог</button
+              ><br /><br />
+              <a href="#" style="color: #ff9900">Внести список артикулов</a
+              ><br /><br />
+            </center>
+          </div>
+        </div>
+        <div class="column">
+          <div class="" style="border-radius: 50px">
+            <img src="image 34.png" alt=""">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="second section container">
+      <b class="title is-4 m-4">Популярные категории</b>
+      <a class="">Все категории <i class="fas fa-arrow-right"></i></a>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <center>
+                <img src="klipartz 1.png" id="box" /><br /><b>Диваны</b>
+              </center>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <center>
+                <img src="lamp.png" id="box" /><br /><b>Спальная</b>
+              </center>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <center>
+                <img src="lamp.png" id="box" /><br /><b>Спальная</b>
+              </center>
+            </div>
+          </div>
+          <div class="swiper-slide"><div class="box">
+            <center><img src="pan.png" id="box" /><br /><b>Кухня</b></center>
+          </div></div>
+          <div class="swiper-slide"> <div class="box">
+            <center>
+              <img src="long.png" id="box" /><br /><b>Для сада</b>
+            </center>
+          </div></div>
+          <div class="swiper-slide"> <div class="box">
+            <center>
+              <img src="klipartz 1.png" id="box" /><br /><b>Диваны</b>
+            </center>
+          </div></div>
+          <div class="swiper-slide"> <div class="box">
+            <center>
+              <img src="lamp.png" id="box" /><br /><b>Спальная</b>
+            </center>
+          </div></div>
+          <div class="swiper-slide"> <div class="box">
+            <center><img src="chair.png" id="box" /><br /><b>Мебель</b></center>
+          </div></div>
+          <div class="swiper-slide"><div class="box">
+            <center><img src="air.png" id="box" /><br /><b>Гигиена</b></center>
+          </div></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="third container section">
+      <b class="title is-3 mr-5"
+        >Скидки <i class="fal fa-percent has-text-danger mr-5"></i></b
+      ><br />
+      <a class="">Все товары в категории <i class="fas fa-arrow-right"></i></a
+      ><br /><br />
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <center><img src="closed.png" alt="" /></center>
+            <br /><b class="has-text-danger">12%<br /></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="koza.png" alt="" /></center>
+            <br /><b class="has-text-danger">12%<br /></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="likop.png" alt="" /></center>
+            <br /><b class="has-text-danger">12%<br /></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="nimadur.png" alt="" /></center>
+            <br /><b class="has-text-danger">12%<br /></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourth section container">
+      <b class="title is-3 mr-6">Товары в наличии</b>
+      <a class="">Все товары в категории <i class="fas fa-arrow-right"></i></a
+      ><br /><br />
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <center><img src="img1.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="img2.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="img3.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="img4.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <center><img src="img5.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="img6.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="img7.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <center><img src="img8.png" alt="" /></center>
+            <br /><b class="has-text-danger"></b>
+            <b
+              >VINTER 2020 ВИНТЕР 2020<br />
+              Шкаф платяной 3-дверный<br />
+              117x190 см<br
+            /></b>
+            <s> 67 763,23 Br</s><br />
+            <b class="title is-5"> 62 392,23 Br</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer1">
+      <center>
+        <div class="columns section">
+          <div class="column">
+            <img src="Capa 1.png" alt="" /><br />
+            <b>Информация</b>
+            <p>Все права защищены © 2015 интернет-магазин AIKEA.BY Беларусь.</p>
+            <p>
+              УНП 191828159 ИП Парейко В.С., регистрационный номер в торговом
+              реестре 158299
+            </p>
+            <p>Политика конфиденциальности</p>
+          </div>
+          <div class="column">
+            <b>Меню</b><br /><br />
+            <p>Корзина | Личный кабинет | Избранное</p>
+            <p>Главная | Каталог | Товары в наличии</p>
+            <p>Контакты | Вставить | Cписок покупок</p>
+            <p>Доставка | Услуги | Условия</p>
+          </div>
+          <div class="column">
+            <b>Контакты</b>
+            <p>г.Минск</p>
+            <p>Ул. Первомайская, Д. 1, Кв. 43</p>
+            <p>+ 375 434 847 28 84</p>
+          </div>
+        </div>
+      </center>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
